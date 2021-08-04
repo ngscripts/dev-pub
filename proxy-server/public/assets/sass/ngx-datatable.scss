@@ -1,0 +1,91 @@
+@import  "../../../node_modules/font-awesome/scss/variables";
+
+/* data-table */
+[data-icon]:before {
+    font-family: FontAwesome !important;
+    content: attr(data-icon);
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+    font-family: FontAwesome !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.datatable-icon-filter:before {
+    content: $fa-var-filter;
+}
+
+.datatable-icon-collapse:before {
+    content: $fa-var-minus;
+}
+
+.datatable-icon-expand:before {
+    content: $fa-var-plus;
+}
+
+.datatable-icon-close:before {
+    content: $fa-var-times-circle;
+}
+
+.datatable-icon-up:before {
+    content: $fa-var-chevron-up;
+}
+
+.datatable-icon-down:before {
+    content: $fa-var-chevron-down;
+}
+
+.datatable-icon-sort:before {
+    content: $fa-var-sort;
+}
+
+.datatable-icon-done:before {
+    content: $fa-var-check-circle;
+}
+
+.datatable-icon-done-all:before {
+    content: $fa-var-check-square;
+}
+
+.datatable-icon-search:before {
+    content: $fa-var-search;
+}
+
+.datatable-icon-pin:before {
+    content: $fa-var-thumb-tack;
+}
+
+.datatable-icon-add:before {
+    content: $fa-var-plus;
+}
+
+.datatable-icon-left:before {
+    content: $fa-var-chevron-left;
+}
+
+.datatable-icon-right:before {
+    content: $fa-var-chevron-right;
+}
+
+.datatable-icon-skip:before {
+    content: $fa-var-step-forward;
+}
+
+.datatable-icon-prev:before {
+    content: $fa-var-step-backward;
+}

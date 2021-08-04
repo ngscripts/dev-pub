@@ -1,0 +1,24 @@
+{
+  "name": "hermes_proxy_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "proxy-server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anwaar Ulhaq",
+  "license": "ISC",
+  "bundledDependencies": {
+    "body-parser": "1.19.0",
+    "express": "4.17.1",
+    "http-proxy": "1.18.1",
+    "pm2": "5.1.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "hermes_proxy": "file:hermes_proxy-1.0.0.tgz",
+    "http-proxy": "^1.18.1",
+    "pm2": "^5.1.0"
+  }
+}
